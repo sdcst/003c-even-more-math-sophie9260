@@ -10,7 +10,9 @@ The Canadian income tax system is a tiered system, which means you pay different
 your income for different parts of your income.
 You pay 15% tax on the first 49020 you earn.  If you earn more than this amount, you pay
 20.5% on amounts over 49020 that are less than 98040
+
 26% on amounts over 98040 but less than 151978
+
 29% on amounts over 151978 but less than 216511
 33% on amounts over 216511
 
@@ -21,3 +23,11 @@ Enter your income: 125000
 Your federal income tax is: 24411.7
 
 '''
+question = "what is the income?"
+i = input(question)
+i = float(i)
+
+t = i*0.26
+t = round(t,2)
+
+print(f"your federal income tex is: {t}$.")
